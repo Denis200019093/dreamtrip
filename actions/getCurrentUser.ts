@@ -2,7 +2,7 @@
 
 import { authOptions, getAuthSession } from "@/configs/auth-config";
 
-import prisma from "@/prisma/client";
+import { prisma } from "@/prisma/client";
 
 export default async function getCurrentUser() {
   try {
